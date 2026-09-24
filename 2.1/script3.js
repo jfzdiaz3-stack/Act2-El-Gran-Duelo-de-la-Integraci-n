@@ -1,3 +1,2 @@
-const p = document.createElement('p');
-p.textContent = 'Hola mundo';
-document.body.appendChild(p);
+for (let i = 0; i < 50000000; i++) {}
+document.getElementById('titulo').innerText = 'Cambiado por 3';

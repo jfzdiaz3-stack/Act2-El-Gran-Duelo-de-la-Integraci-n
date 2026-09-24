@@ -1,2 +1,2 @@
-const titulo = document.getElementById('titulo').innerText = 'Cambiado por X';
-
+for (let i = 0; i < 50000000; i++) {}
+document.getElementById('titulo').innerText = 'Cambiado por 1';
